@@ -1,0 +1,53 @@
+.produtos__bombando{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+    .produtos__container{
+        display: flex;
+        flex-direction: column;
+        width: 323px;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        padding-bottom: 1.5em;
+        margin-bottom: 2em;
+
+    }
+    .botao{
+        text-decoration: none;
+    background-color: var(--roxo);
+    color: var(--branco);
+    padding: 0.5em 1em;
+    margin-left: 0.8em;
+    }
+    @media screen and (min-width: 768px) { 
+        
+            
+         .todos__produtos{
+            display: grid;
+            grid-template-columns: 180px 250px;
+            grid-template-rows: 400px  400px; 
+            column-gap: 180px;
+            row-gap: 250px;
+            margin-left:-15%;
+            margin-bottom: 0;
+          
+        
+        }
+    }
+    @media screen and (min-width: 1024px) { 
+
+    .todos__produtos{
+        display: grid;
+        grid-template-columns: 180px 180px 180px;
+        grid-template-rows: 400px  400px 80px; 
+        column-gap: 180px;
+        row-gap: 250px;
+        margin-left:-15%;
+        margin-bottom: 0;
+      
+    
+    }
+}

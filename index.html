@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Meteora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__responsive">
+            <nav class="header__responsive-nav">
+                <a href="#" class="logo"><img src="/pictures/Logo desktop.png" alt="Ícone Menu"></a>
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-list-link">Home</a></li>
+                    <li><a href="#" class="nav-list-link">Nossas lojas</a></li>
+                    <li><a href="#" class="nav-list-link">Novidades</a></li>
+                    <li><a href="#" class="nav-list-link">Promoções</a></li>
+                </ul>
+                <div class="mobile-menu-icon">
+                    <button class="mobile-menu-icon-button" onclick="menuShow()"><img src="pictures/imagem.png" alt=""
+                            class="mobile-menu-img"></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul class="nav-list-mobile">
+                    <button class="mobile-menu-icon-button" onclick="menuShow()">
+                        <li><a href="#" class="nav-mobile-link-img"><img src="pictures/Logo desktop.png" alt=""></a>
+                        </li>
+                    </button>
+                    <li><a href="#" class="nav-mobile-link-home">Home</a></li>
+                    <li><a href="#" class="nav-mobile-link">Nossas lojas</a></li>
+                    <li><a href="#" class="nav-mobile-link">Novidades</a></li>
+                    <li><a href="#" class="nav-mobile-link">Promoções</a></li>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <div class="header__search">
+                <input type="search" class="search__input" placeholder="Digite o produto">
+                <button class="search__button">Search</button>
+            </div>
+    </header>
+    <main class=" banner">
+        <div class="banner__carrossel">
+            <img class="banner__web" src="/pictures/captions.png" alt="banner para web">
+            <img class="banner__tablet" src="/pictures/captions-tablet.jpg" alt="banner para tablet">
+            <img class="banner__mobile" src="pictures/captions-mobile.png" alt="banner para mobile">
+
+        </div>
+        <section class="items">
+            <h2 class="items__title">Busque por categoria:</h2>
+            <div class="items__box">
+                <div class="items__box-item">
+                    <a href="#"><img src="pictures/camisetas.png" alt="" class="items__box-img"></a>
+
+                </div>
+                <div class="items__box-item">
+                    <a href="#"><img src="pictures/bolsas.png" alt="" class="items__box-img"></a>
+
+                </div>
+                <div class="items__box-item">
+                    <a href="#"><img src="pictures/calçados.png" alt="" class="items__box-img"></a>
+
+                </div>
+                <div class="items__box-item">
+                    <a href="#"> <img src="/pictures/calças.png" alt="" class="items__box-img"></a>
+
+                </div>
+                <div class="items__box-item">
+                    <a href="#"><img src="pictures/casaco.png" alt="" class="items__box-img"></a>
+
+                </div>
+                <div class="items__box-item">
+                    <a href="#"> <img src="pictures/oculos.png" alt="" class="items__box-img"></a>
+                </div>
+            </div>
+        </section>
+        <section class="produtos__bombando">
+            <h2 class="titulos__produtos">Produtos que estão bombando!</h2>
+            <div class="todos__produtos">
+                <div class="produtos__container">
+                    <img src="/pictures/Card camiseta.png" alt="camiseta conforto">
+                    <p><strong>Camiseta Conforto</strong></p>
+                    <p>Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                    <p><strong>R$70,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+
+                <div class="produtos__container">
+                    <img src="/pictures/Card calça.png" alt="camiseta conforto">
+                    <p><strong>Calça Alfaiataria</strong></p>
+                    <p>Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                    <p><strong>R$180,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+
+                <div class="produtos__container">
+                    <img src="/pictures/Card tenis.png" alt="camiseta conforto">
+                    <p><strong>Tênis Chunky</strong></p>
+                    <p>Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                    <p><strong>R$250,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+
+                <div class="produtos__container">
+                    <img src="/pictures/Card jaqueta jeans.png" alt="camiseta conforto">
+                    <p><strong>Jaqueta Jeans</strong></p>
+                    <p>Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                    <p><strong>R$150,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+
+                <div class="produtos__container">
+                    <img src="/pictures/Cards óculos.png" alt="camiseta conforto">
+                    <p><strong>Óculos Redondo</strong></p>
+                    <p>Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                    <p><strong>R$120,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+
+                <div class="produtos__container">
+                    <img src="/pictures/Card bolsa.png" alt="camiseta conforto">
+                    <p><strong>Bolsa coringa</strong></p>
+                    <p><strong>Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma
+                            vida!</strong></p>
+                    <p><strong>R$120,00</strong></p>
+                    <button class="botao">Veja Mais</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="facilidades">
+            <h3 class="titulo__facilidades">Conheça nossas facilidades</h3>
+            <div class="container__facilidades">
+
+                <div class="facilidades__section">
+                    <div class="imagem__facilidades">
+                        <img src="/pictures/x-diamond.png" alt="simbolo do pix">
+                    </div>
+                    <div class="texto__facilidades">
+                        <p class="verde">Pague Pelo Pix</p>
+                        <p class="branco">Ganhe 5% OFF em pagamentos via PIX</p>
+                    </div>
+                </div>
+                <div class="facilidades__section">
+                    <div class="imagem__facilidades">
+                        <img src="/pictures/Vector.png" alt="simbolo da troca">
+                    </div>
+                    <div class="texto__facilidades">
+                        <p class="verde">Troca Grátis</p>
+                        <p class="branco">Fique livre para trocar em até 30 dias.</p>
+                    </div>
+                </div>
+
+                <div class="facilidades__section">
+                    <div class="imagem__facilidades">
+                        <img src="/pictures/flower1.png" alt="simbolo da  flor">
+                    </div>
+                    <div class="texto__facilidades">
+                        <p class="verde">Sustentabilidade</p>
+                        <p class="branco">Moda responsável, que respeita o meio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <section class="email__ofertas">
+            <h3 class="titulo__ofertas">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira
+                compra? <strong>Cadastre-se!</strong></h3>
+            <input class="dig__email" type="email" name="email" id="email" placeholder="Digite seu email"><input
+                class="botao__email" id="btn" type="button" onclick="enviarEmail()" value="Enviar">
+        </section>
+        <section class="footer">
+            <p class="footer__text">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+        </section>
+        </footer>
+
+
+
+    </main>
+    <script>
+        function menuShow() {
+            let menuMobile = document.querySelector('.mobile-menu');
+            if (menuMobile.classList.contains('open')) {
+                menuMobile.classList.remove('open');
+            } else {
+                menuMobile.classList.add('open');
+            }
+        }
+
+        function enviarEmail() {
+            var emailInput = document.getElementById("email");
+            var email = emailInput.value.trim();
+
+            if (validarEmail(email)) {
+                alert("Seu email foi enviado.");
+            } else {
+                alert("Por favor, insira um email válido.");
+            }
+        }
+
+        function validarEmail(email) {
+            var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return regex.test(email);
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

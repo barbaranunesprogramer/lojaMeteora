@@ -1,0 +1,24 @@
+@import url("/styles/header.css");
+@import url('/styles/main.css');
+@import url("/styles/produtos-container.css");
+@import url("/styles/facilidades.css");
+@import url("/styles/email.css");
+@import url("/styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+:root {
+    --branco: #ffffff;
+    --verde: #DAFF01;
+    --roxo: #9353FF;
+    --lilas: #895FB5;
+    --cinza: #212529;
+    --preto: #000000;
+    --cinza-menu: #343A40;
+
+}
+
+body{
+    font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+

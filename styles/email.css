@@ -1,0 +1,33 @@
+.email__ofertas{
+    margin: 20px;
+    padding: 20px;
+    border : solid 2px var(--preto);
+    border-radius: 5px;
+}
+.titulo__ofertas{
+    font-weight: 200;
+    font-size: 20px;
+}
+.botao__email{
+    background-color: var(--roxo);
+    text-decoration: none;
+    border: var(--roxo);
+    color: var(--branco);
+    padding: 3px;
+}
+.dig__email{
+    border:solid 1px var(--preto);
+    margin: 0 0 0 20px;
+}
+@media screen and (min-width: 1024px) {
+    .email__ofertas{
+        margin:70px 350px;
+        align-items: center;
+    }
+    .titulo__ofertas{
+        text-align: center;
+    }
+    .dig__email{
+       margin :0 0 0 150px;
+    }
+}
